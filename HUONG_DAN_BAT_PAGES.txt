@@ -1,0 +1,11 @@
+BO SUA 404 - THEM VAO REPO GITHUB DANG CO: AIX_Web_App
+1. Tren GitHub, mo: https://github.com/BUITRUNGKIEN-rgb/AIX_Web_App
+2. Add file -> Upload files, tai index.html, 404.html, .nojekyll, assets/.
+3. Commit changes.
+4. Settings -> Pages -> Deploy from a branch -> main -> /(root) -> Save.
+5. Dia chi du kien: https://buitrungkien-rgb.github.io/AIX_Web_App/
+
+DAY CHI LA TRANG GIOI THIEU STATIC, CHUA CO AI NHAN DIEN THAT.
+Muon ket noi, deploy app.py tren Streamlit Cloud voi model that, sau do
+sua assets/config.js: streamlitUrl: "https://...streamlit.app"
+Bo nay khong thay the/xoa cac file Python trong repository.

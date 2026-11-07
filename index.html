@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="AI02 Trường học xanh — UNETI12 ODD3. Nhận diện sáu loại rác, phân tích đa góc và tư vấn tái chế có điều kiện.">
+  <meta name="theme-color" content="#f4f8fd">
+  <title>AI02 · Smart Campus AI — UNETI 2026</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script defer src="assets/config.js"></script>
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+  <div class="ambient ambient-1" aria-hidden="true"></div>
+  <div class="ambient ambient-2" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="shell head-inner">
+      <a class="brand" href="./" aria-label="Trang chủ AI02">
+        <span class="brand-mark" aria-hidden="true">♻</span>
+        <span><b>SMART CAMPUS AI</b><small>UNETI 2026 · AI02</small></span>
+      </a>
+      <nav class="top-nav" aria-label="Điều hướng chính">
+        <a href="#tinh-nang">Tính năng</a>
+        <a href="#cach-dung">Cách sử dụng</a>
+        <a href="#gioi-han">Lưu ý</a>
+      </nav>
+      <button class="btn btn-sm btn-outline" data-open-app>Mở AI <span aria-hidden="true">↗</span></button>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero shell" aria-labelledby="hero-heading">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="signal-dot"></span> OLYMPIC TRÍ TUỆ NHÂN TẠO · UNETI 2026</div>
+        <h1 id="hero-heading">Trường học <em>xanh</em>,<br>nhận diện rác <span>thông minh.</span></h1>
+        <p class="lead">AI02 hỗ trợ phân loại rác từ ảnh, tổng hợp nhiều góc chụp và gợi ý khả năng tái chế theo điều kiện thực tế.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" data-open-app><span aria-hidden="true">✦</span> Khởi động nhận diện <span aria-hidden="true">↗</span></button>
+          <a class="btn btn-ghost" id="repo-top" href="https://github.com/BUITRUNGKIEN-rgb/AIX_Web_App" target="_blank" rel="noopener noreferrer">Xem mã nguồn <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-foot"><span class="check">✓</span> 6 nhóm rác TrashNet <i></i><span class="check">✓</span> Chụp nhiều góc <i></i><span class="check">✓</span> Hướng dẫn tái chế</div>
+      </div>
+      <div class="hero-art" aria-label="Sơ đồ minh họa luồng phân loại rác với sáu nhóm vật liệu">
+        <div class="art-back art-back-one"></div><div class="art-back art-back-two"></div>
+        <div class="art-card">
+          <div class="art-head"><span class="art-circle">✦</span><div><b>AI02 · Bộ nhận diện</b><small>Ảnh đầu vào → nhóm vật liệu</small></div><span class="art-live">6 lớp</span></div>
+          <div class="scanner">
+            <div class="scan-grid" aria-hidden="true"></div>
+            <svg viewBox="0 0 290 210" role="img" aria-label="Minh họa lon tái chế và vùng nhận diện" width="100%" height="100%">
+              <defs><linearGradient id="can" x1="0" x2="1"><stop offset="0" stop-color="#8cb8d8"/><stop offset=".53" stop-color="#d9e9f6"/><stop offset="1" stop-color="#7da7c4"/></linearGradient><linearGradient id="shine" x1="0" x2="1"><stop stop-color="#ffac40"/><stop offset="1" stop-color="#f77b20"/></linearGradient></defs>
+              <rect x="56" y="28" width="178" height="154" rx="24" fill="none" stroke="#72b8e5" stroke-dasharray="7 7" stroke-width="2"/>
+              <g transform="translate(102 24) rotate(-9 42 80)"><rect x="9" y="24" width="92" height="137" rx="23" fill="url(#can)" stroke="#547c9d" stroke-width="2"/><ellipse cx="55" cy="25" rx="45" ry="15" fill="#f5fcff" stroke="#7da6bd" stroke-width="4"/><ellipse cx="55" cy="158" rx="45" ry="12" fill="#80a9c4"/><rect x="14" y="57" width="82" height="66" rx="8" fill="url(#shine)"/><path d="M37 87c7-15 18-14 25-1m-2-12 6 12-13 1" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><text x="55" y="113" text-anchor="middle" font-size="10" font-weight="bold" fill="white" font-family="Arial">RECYCLE</text></g>
+              <path d="M56 56h18m-18 0v18m178-18h-18m18 0v18M56 154h18m-18 0v-18m178 18h-18m18 0v-18" fill="none" stroke="#2181cb" stroke-width="4" stroke-linecap="round"/>
+            </svg>
+            <span class="scan-tag">Vật thể đầu vào</span>
+          </div>
+          <div class="art-badges"><span>Kim loại</span><span>Thủy tinh</span><span>Nhựa</span><span>Giấy</span><span>Carton</span><span>Rác khác</span></div>
+          <div class="art-disclaimer">Hình minh họa · Kết quả thật do mô hình đã huấn luyện tạo ra</div>
+        </div>
+        <div class="floating-chip chip-one"><span aria-hidden="true">◎</span> Multi-view AI</div>
+        <div class="floating-chip chip-two"><span aria-hidden="true">♻</span> Tư vấn tái chế</div>
+      </div>
+    </section>
+    <section class="numbers shell" aria-label="Tóm tắt chức năng">
+      <div><strong>06</strong><span>Nhóm rác TrashNet</span></div><div><strong>2–6</strong><span>Góc chụp cùng vật</span></div><div><strong>03</strong><span>Nhóm chức năng chính</span></div><div class="status-box"><span class="status-orb"></span><span><b>AI có điều kiện</b><small id="deploy-state">Cần kết nối bản Streamlit đã triển khai</small></span></div>
+    </section>
+    <section id="tinh-nang" class="features-section shell">
+      <div class="section-heading"><div><span class="eyebrow eyebrow-small">HỆ THỐNG AI02</span><h2>Thiết kế để dễ dùng, dễ hiểu</h2></div><p>Các chức năng được thực hiện trong ứng dụng Streamlit, sử dụng checkpoint thật do đội huấn luyện.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="f-icon f-blue" aria-hidden="true">▣</div><span class="feature-index">01 / NHẬN DIỆN</span><h3>Phân loại từ ảnh</h3><p>Tải ảnh vật thể, xem nhãn dự đoán và mức độ phân vân giữa sáu nhóm rác.</p><span class="feature-bottom">Ảnh đơn • Camera khi được cấp quyền</span></article>
+        <article class="feature-card"><div class="f-icon f-orange" aria-hidden="true">◈</div><span class="feature-index">02 / ĐA GÓC</span><h3>Nhìn vật từ nhiều hướng</h3><p>Phân tích từng góc chụp của cùng một vật thể, kết hợp xác suất và đánh dấu kết quả bất đồng.</p><span class="feature-bottom">Từ 2 đến 6 ảnh</span></article>
+        <article class="feature-card"><div class="f-icon f-green" aria-hidden="true">♻</div><span class="feature-index">03 / TÁI CHẾ</span><h3>Gợi ý xử lý phù hợp</h3><p>Đánh giá tiềm năng tái chế theo vật liệu, độ sạch và khả năng tiếp nhận tại điểm thu gom.</p><span class="feature-bottom">Tư vấn có điều kiện</span></article>
+      </div>
+    </section>
+    <section id="cach-dung" class="steps-section">
+      <div class="shell steps-grid"><div><span class="eyebrow eyebrow-small">CÁCH TRẢI NGHIỆM</span><h2>Ba bước để bắt đầu</h2><p>Trang này là cổng giới thiệu GitHub Pages. Khi ứng dụng Python đã được triển khai, nút “Mở AI” sẽ dẫn đến nơi nhận diện thật.</p></div><ol><li><span>01</span><div><b>Mở ứng dụng AI</b><p>Truy cập ứng dụng Streamlit từ nút “Khởi động nhận diện”.</p></div></li><li><span>02</span><div><b>Chọn ảnh hoặc nhiều góc</b><p>Chụp ảnh rõ nét hoặc tải tối đa sáu góc của cùng vật thể.</p></div></li><li><span>03</span><div><b>Xem dự đoán và hướng dẫn</b><p>Quan sát xác suất, cảnh báo và gợi ý tái chế có điều kiện.</p></div></li></ol></div>
+    </section>
+    <section id="gioi-han" class="notice shell"><span class="notice-icon" aria-hidden="true">i</span><div><h3>Lưu ý về độ chính xác và tái chế</h3><p>AI có thể nhận diện sai khi ảnh bị che khuất, ánh sáng kém hoặc vật liệu giống nhau. “Có tiềm năng tái chế” không đồng nghĩa một cơ sở địa phương chắc chắn tiếp nhận. Với pin, hóa chất hoặc rác nguy hại, cần kiểm tra phương án thu gom riêng.</p></div></section>
+    <section class="final-cta shell"><div><span class="eyebrow eyebrow-small">SMART CAMPUS AI02</span><h2>Sẵn sàng thử nhận diện?</h2><p>Hãy dùng checkpoint đã huấn luyện để kiểm tra trên ảnh thật. Không tạo kết quả dự đoán giả.</p></div><button data-open-app class="btn btn-primary btn-light">Mở ứng dụng AI <span aria-hidden="true">↗</span></button></section>
+  </main>
+  <footer class="site-footer"><div class="shell footer-inner"><span><b>AI02 · Trường học xanh</b><small>UNETI12 – ODD3 · Olympic AI UNETI 2026</small></span><a id="repo-footer" href="https://github.com/BUITRUNGKIEN-rgb/AIX_Web_App" target="_blank" rel="noopener noreferrer">Mã nguồn GitHub ↗</a></div></footer>
+  <dialog id="connect-dialog" aria-labelledby="dialog-title"><div class="dialog-body"><button id="dialog-close" class="dialog-x" aria-label="Đóng">×</button><span class="dialog-symbol">⌁</span><h2 id="dialog-title">Chưa kết nối ứng dụng nhận diện</h2><p>Trang GitHub Pages này chỉ hiển thị giao diện giới thiệu. Để AI phân tích ảnh thật, cần triển khai <code>app.py</code> trên Streamlit Community Cloud với checkpoint đã huấn luyện.</p><p>Sau khi có link <code>https://…streamlit.app</code>, hãy điền link vào <code>assets/config.js</code> và đẩy file lên GitHub.</p><div class="dialog-actions"><a class="btn btn-primary" href="https://share.streamlit.io/" target="_blank" rel="noopener noreferrer">Mở Streamlit Cloud ↗</a><button id="dialog-ok" class="btn btn-outline">Đã hiểu</button></div></div></dialog>
+</body>
+</html>
